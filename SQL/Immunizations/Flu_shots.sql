@@ -25,8 +25,6 @@ with active_patients as
 	where start between '2020-01-01 00:00' and '2022-12-31 23:59'
 	  and pat.deathdate is null
 	  and extract(month from age('2022-12-31',pat.birthdate)) >= 6
-/* Might want to use this line below instead, as  the above isn't correct. However, once you do, your results will look a little different than the tutorial */    
-/* EXTRACT(EPOCH FROM age('2022-12-31',pat.birthdate)) / 2592000  */
 ),
 
 flu_shot_2022 as
