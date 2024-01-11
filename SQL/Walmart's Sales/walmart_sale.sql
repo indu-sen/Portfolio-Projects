@@ -5,7 +5,7 @@ use salesDataWalmart;
 
 -- Create table
 create table if not exists sales (
-	invoice_id varchar(30) not null primary key,
+    invoice_id varchar(30) not null primary key,
     branch varchar(5) not null, 
     city varchar (30) not null,
     customer_type varchar(30) not null,
