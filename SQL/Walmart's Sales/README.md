@@ -8,7 +8,9 @@ The data analysis projects aims to provide insights into the performance of Walm
 
 The dataset used for this analysis was sourced from the [Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting).
 
-This dataset contains anonymized sales transactions from a three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows:
+This dataset contains anonymized sales transactions from a three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. 
+
+Below is a data dictionary that provides details aobout the database and the data within it. The data contains 17 columns and 1000 rows:
 
 | Column                  | Description                             | Data Type      |
 | :---------------------- | :-------------------------------------- | :------------- |
