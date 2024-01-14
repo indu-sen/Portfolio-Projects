@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The data analysis projects aims to provide insights into the performance of Walmart's top branches and products, sales trends for various products, and understanding customer behavior. By analyzing various aspects of the sale data, we seek to identifiy trends, make data-driven recommendations, and investigate opportunities on how different factors affect the sales of different branches. 
+The data analysis projects aims to provide insights into the performance of Walmart's top branches and products, sales trends for various products, and understanding how different factors affect the sales of products.
 
 ## Data Sources 
 
