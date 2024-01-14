@@ -8,7 +8,7 @@ The data analysis projects aims to provide insights into the performance of Walm
 
 The dataset used for this analysis was sourced from the [Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting).
 
-This dataset contains anonymized sales transactions from a three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. 
+This dataset contains anonymized sales transactions from three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. 
 
 Below is a data dictionary that provides details aobout the database and the data within it. The data contains 17 columns and 1000 rows:
 
@@ -49,6 +49,34 @@ During this first step, the data was inspected to identify and address NULL valu
 1. Build a datbase.
 2. Create table and insert the data. 
 3. Choose columns containing null values. Our database does not have any null values because during the table creation, we specified NOT NULL for each field, ensuring that null values are excluded.
+
+```sql
+-- Create database
+create database if not exists salesDataWalmart;
+
+use salesDataWalmart;
+
+-- Create table
+create table if not exists sales (
+    invoice_id varchar(30) not null primary key,
+    branch varchar(5) not null, 
+    city varchar (30) not null,
+    customer_type varchar(30) not null,
+    gender varchar(10) not null,
+    product_line varchar(100) not null, 
+    unit_price decimal(10,2) not null,
+    quantity int not null, 
+    VAT float (6,4) not null,
+    total decimal(12,4) not null,
+    date datetime not null,
+    time time not null, 
+    payment VARCHAR(15) NOT NULL,
+    cogs DECIMAL(10,2) NOT NULL,
+    gross_margin_pct FLOAT(11,9),
+    gross_income DECIMAL(12, 4),
+    rating FLOAT(2, 1)
+    );
+```
 
 ### Feature Engineering 
 
