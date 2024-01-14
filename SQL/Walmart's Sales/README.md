@@ -46,8 +46,8 @@ In the inital data prepration phase, we performed the following tasks:
 
 During this first step, the data was inspected to identify and address NULL values. 
 
-1. Build a datbase.
-2. Create table and insert the data. 
+1. Build a database.
+2. Create the table and insert the data. 
 3. Choose columns containing null values. Our database does not have any null values because during the table creation, we specified NOT NULL for each field, ensuring that null values are excluded.
 
 ```sql
