@@ -4,7 +4,7 @@
 
 The data analysis projects aims to provide insights into the performance of Walmart's top branches and products, sales trends for various products, and understanding how different factors affect the sales of products.
 
-## Data Sources 
+## Data Source 
 
 The dataset used for this analysis was sourced from the [Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting).
 
