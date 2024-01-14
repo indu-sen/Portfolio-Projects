@@ -17,7 +17,7 @@ I, first, converted the XLSX files to CSV, so that the files can be uploaded to 
 
 #### Analysis 
 
-As this project focuses on data exploration, there were no specfic questions requiring answers. The objective was to familiarize myself with the data, identify any discernible patterns or trends, if present, and compare statistics across different countries.
+As this project focuses on data exploration, there were no specific questions requiring answers. The objective was to familiarize myself with the data, identify any discernible patterns or trends, if present, and compare statistics across different countries.
 
 The full code can be [here](https://github.com/indu-sen/Portfolio-Projects/blob/main/SQL/COVID/Code). 
 
