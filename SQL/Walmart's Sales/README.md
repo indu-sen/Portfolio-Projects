@@ -44,7 +44,7 @@ In the inital data prepration phase, we performed the following tasks:
 
 ### Data Wrangling 
 
-During this first step, the data was inspected to identify and address NULL values and missing data by using a replacement method. The method was applied to replace or fill in the missing or NULL values.
+During this first step, the data was inspected to identify and address NULL values. 
 
 1. Build a datbase.
 2. Create table and insert the data. 
@@ -66,7 +66,7 @@ EDA involved exploring the sales data to answer key analysis regarding the Produ
 2. Sales: Conduct analysis to explore the sales trends of products. The outcomes of this analysis will assist in evaluating the effectiveness of each applied sales strategy and determining necessary modifications to enhance sales performance.
 3. Customer: Conduct analssyiss to uncover the various customer segments, analyze purchase trends within these segments, and assess the profitability associated with each customer segment.
 
-### Specific Business Questions regarding the Product, Sales, and Customer
+### Specific Business Questions Regarding the Product, Sales, and Customer Analysis: 
 
 #### General Overview Questions: 
 
