@@ -3,7 +3,7 @@
 ### Background 
 Over the past few years, COVID-19 has profoundly influenced all of us, and now there is data accessible to help us comprehend its varying effects on different countries.
 
-Through data exploration, I examined a portion of the COVID-19 Deaths and Vaccination data to uncover trends/patterns from using Google Big Query. 
+Through data exploration, I examined a portion of the COVID-19 Deaths and Vaccination data to uncover trends/patterns using Google Big Query. 
 
 ### Process
 
