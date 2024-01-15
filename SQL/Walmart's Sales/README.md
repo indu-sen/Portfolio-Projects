@@ -39,10 +39,10 @@ Below is a data dictionary that provides details about the database and the data
 
 In the inital data prepration phase, we performed the following tasks:
 
-1. Data Wrangling 
+1. Data Wrangling/Data Quality Check/Data Governance 
 2. Feature Engineering 
 
-### Data Wrangling 
+### Data Wrangling/Data Quality Check/Data Governance 
 
 During this first step, the data was inspected to identify and address NULL values. 
 
