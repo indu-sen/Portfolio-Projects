@@ -44,7 +44,9 @@ In the inital data prepration phase, we performed the following tasks:
 
 ### Data Wrangling/Data Quality Check/Data Governance 
 
-During this first step, the data was inspected to identify and address NULL values. 
+During this first step, the data was inspected to identify and address NULL values. We want to ensure quality and usable data is entered prior to perorming an analysis to derive more accurate insights. 
+
+The following steps were undertaken: 
 
 1. Build a database.
 2. Create the table and insert the data. 
