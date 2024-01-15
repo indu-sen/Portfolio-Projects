@@ -10,7 +10,7 @@ The dataset used for this analysis was sourced from the [Kaggle Walmart Sales Fo
 
 This dataset contains anonymized sales transactions from three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. 
 
-Below is a data dictionary that provides details aobout the database and the data within it. The data contains 17 columns and 1000 rows:
+Below is a data dictionary that provides details about the database and the data within it. The data contains 17 columns and 1000 rows:
 
 | Column                  | Description                             | Data Type      |
 | :---------------------- | :-------------------------------------- | :------------- |
