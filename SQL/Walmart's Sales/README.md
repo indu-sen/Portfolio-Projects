@@ -140,7 +140,7 @@ EDA involved exploring the sales data to answer key analysis regarding the Produ
 
 ## Code
 
-The SQL queries can be found at [here](https://github.com/indu-sen/Portfolio-Projects/blob/main/SQL/Walmart's%20Sales/walmart_sale.sql). 
+The SQL queries can be found at [here](https://github.com/indu-sen/Portfolio-Projects/blob/main/SQL/Walmart's%20Sales/walmart_sale.sql). The queries answers the above questions. 
 
 
 
