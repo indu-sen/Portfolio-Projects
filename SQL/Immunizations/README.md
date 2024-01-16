@@ -11,8 +11,6 @@ It also features a dynamic display of the cumulative flu shots administered thro
 ### Data Source
 The dataset used for this analysis was sourced from Synthea. 
 
-Synthea is an open source program that was developed by the MITRE corporation. It is programmed to randomly generate patient data. In other words, it is a simulation modeled after the data that a hospital might generate into an electronic medical record system.
-
 Two main tables, patients and immunization, from Synthea were used. The patients table contains patient demographics, and the immunizations table includes information about immunization events. 
 
 The two tables are included in this respiratory. 
