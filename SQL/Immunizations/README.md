@@ -75,13 +75,17 @@ where 1=1
 ```
 
 
-## Dashboard Components
+## Dashboard
+
+### Components 
 
 The dashboard consits of the following compoenents: 
 
 1. Total percentage of patients getting Flu Shots stratified by age, race, county, and overall. These percentages will be calculated based on the total number of patients who received flu shots and the total number of active patients.
 2. Running total of Flu Shots that shows the cumulative number of flu shots administered throughout 2022. It will show the trend of flu shot administration over time.
 3. List of patients and Flu Shot status. A table listing patients' attributes and indicating whether they received a flu shot in 2022. Patients will be categorized as 'Yes' or 'No' based on their flu shot status.
+
+## Link and conclusion 
 
 The dasboard can be viewed [here](https://public.tableau.com/app/profile/indu.sen1237/viz/ImmunizationDashboard_17032121398330/Dashboard1?publish=yes).
 
