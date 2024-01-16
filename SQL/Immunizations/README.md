@@ -23,7 +23,7 @@ The two tables are included in this respiratory.
 
 ## Process
 
-Step 1- **Identifying Active Patients:** To ensure that we only include patients who were active at our hospitals, we created a common table expression (CTE) named active_patients. This CTE filters patients who had encounters between January 1, 2020, and December 31, 2022, were not deceased, and were at least 6 months old by December 31, 2022.
+Step 1 - **Identifying Active Patients:** To ensure that we only include patients who were active at our hospitals, we created a common table expression (CTE) named active_patients. This CTE filters patients who had encounters between January 1, 2020, and December 31, 2022, were not deceased, and were at least 6 months old by December 31, 2022.
 
 ```sql
 with active_patients as
