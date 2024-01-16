@@ -53,6 +53,28 @@ Step 3 - **Building the Dashboard:** We created the main query to generate the f
 
 The query filters out patients who are not in the list of active patients obtained from the active_patients CTE.
 
+```sql
+select pat.birthdate
+      ,pat.race
+	  ,pat.county
+	  ,pat.id
+	  ,pat.first
+	  ,pat.last
+	  ,pat.gender
+	  ,extract(YEAR FROM age('12-31-2022', birthdate)) as age
+	  ,flu.earliest_flu_shot_2022
+	  ,flu.patient
+	  ,case when flu.patient is not null then 1 
+	   else 0
+	   end as flu_shot_2022
+from patients as pat
+left join flu_shot_2022 as flu
+  on pat.id = flu.patient
+where 1=1
+  and pat.id in (select patient from active_patients)
+```
+
+
 ## Dashboard Components
 
 The dashboard consits of the following compoenents: 
