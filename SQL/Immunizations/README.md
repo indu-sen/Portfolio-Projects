@@ -8,6 +8,8 @@ The dashboard provides insights into the distribution of flu shots among patient
 
 It also features a dynamic display of the cumulative flu shots administered throughout the year, the overall count of flu shots given, and a roster of patients who have received the flu shots.
 
+ This dashboard facilitates data-driven decision-making and enhances understanding of flu shot distribution patterns. 
+
 ### Data Source
 The dataset used for this analysis was sourced from Synthea. 
 
