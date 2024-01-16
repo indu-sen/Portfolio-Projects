@@ -85,7 +85,7 @@ The dashboard consits of the following compoenents:
 2. Running total of Flu Shots that shows the cumulative number of flu shots administered throughout 2022. It will show the trend of flu shot administration over time.
 3. List of patients and Flu Shot status. A table listing patients' attributes and indicating whether they received a flu shot in 2022. Patients will be categorized as 'Yes' or 'No' based on their flu shot status.
 
-## Link and conclusion 
+### Link and conclusion 
 
 The dasboard can be viewed [here](https://public.tableau.com/app/profile/indu.sen1237/viz/ImmunizationDashboard_17032121398330/Dashboard1?publish=yes).
 
