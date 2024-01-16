@@ -4,7 +4,7 @@
 
 The data analysis projects aim to create a comprehensive flu shots dashbard for the year 2022. 
 
-The dashboards provides insights into the distribution of flu shots among patients, categorizing them by age, race, county, and providing overall statistics. 
+The dashboard provides insights into the distribution of flu shots among patients, categorizing them by age, race, county, and providing overall statistics. 
 
 It also features a dynamic display of the cumulative flu shots administered throughout the year, the overall count of flu shots given, and a roster of patients who have received the flu shots.
 
